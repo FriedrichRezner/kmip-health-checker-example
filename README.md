@@ -1,13 +1,18 @@
-# kmip-health-checker-demo
+# KMIP Health Checker Demo
 
-kmip-health-checker-demo is a fully configured example for the kmip-health-checker repository.
+KMIP Health Checker example provides a fully configured ready-to-run application for
+the [KMIP Health Checker repository](https://github.com/FriedrichRezner/kmip-health-checker). This demo uses `pykmip`
+as the KMIP server and includes generated certificate and key files for both the server and the client. Both services
+are orchestrated using a `docker-compose.yaml` file.
 
-It uses pykmip as the KMIP server and generated cert and key files both on the server and for the client.
+## Getting Started
 
-Both services are orchestrated using a docker-compose.yaml.
+To start the services, execute the following command:
 
-# Getting started
+```sh
+docker-compose up -d
+```
 
-Execute `docker-compose up -d` and you should find your health checker here:
+Once the services are running, you can access the health check at:
 
-http://localhost:3322/health
+[http://localhost:3322/health](http://localhost:3322/health)
