@@ -1,6 +1,6 @@
-# KMIP Health Checker Demo
+# KMIP Health Checker Example
 
-KMIP Health Checker example provides a fully configured ready-to-run application for
+KMIP Health Checker Example provides a fully configured ready-to-run application for
 the [KMIP Health Checker repository](https://github.com/FriedrichRezner/kmip-health-checker). This demo uses `pykmip`
 as the KMIP server and includes generated certificate and key files for both the server and the client. Both services
 are orchestrated using a `docker-compose.yaml` file.
