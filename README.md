@@ -13,6 +13,5 @@ To start the services, execute the following command:
 docker-compose up -d
 ```
 
-Once the services are running, you can access the health check at:
-
-[http://localhost:3322/health](http://localhost:3322/health)
+Once the services are running, you can access the health check
+at: [http://localhost:3322/health](http://localhost:3322/health)
